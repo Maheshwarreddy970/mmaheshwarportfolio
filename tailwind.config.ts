@@ -10,6 +10,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        ping: {
+          '75%, 100%': {
+            transform: 'scale(8)',
+            opacity: '0',
+          },
+        },
+      },
+      animation: {
+        ping: 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

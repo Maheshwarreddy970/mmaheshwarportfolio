@@ -190,6 +190,11 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
+"@react-hooks-hub/use-click-outside@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@react-hooks-hub/use-click-outside/-/use-click-outside-0.0.2.tgz#015395676572f15689f831a1db6b98311c16bea8"
+  integrity sha512-4FZzqWA2eGhgkdWJqwp6JlvMHc2H131XW140/AAdLElM9O67A7IREYrmuXQrbIpBQmgUeSfbhao4WicN61IOVQ==
+
 "@rtsao/scc@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@rtsao/scc/-/scc-1.1.0.tgz#927dd2fae9bc3361403ac2c7a00c32ddce9ad7e8"

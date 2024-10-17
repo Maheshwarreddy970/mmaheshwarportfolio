@@ -1,35 +1,37 @@
+import { FaGlobeAmericas } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
-import { RiLinkedinBoxLine, RiTwitterXLine } from "react-icons/ri";
-import { SiLeetcode } from "react-icons/si";
+import { LuLinkedin } from "react-icons/lu";
+import {  RiTwitterXLine } from "react-icons/ri";
+import { SiGithub } from "react-icons/si";
+import { TbBrandLeetcode } from "react-icons/tb";
 
 export const data = {
   name: "Maheshwar Reddy",
-  url: "https://maheshwar20.vercel.app/",
-  location: "Hyderabad , India",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  url: "https://mmaheshwarreddy.vercel.app/",
+  resume: '/mmaheshwarreddy.pdf',
   description:
-    "Hello! I'm Maheshwar Reddy, a Lead Software Engineer and Designer dedicated to crafting tools that empower developers and enhance user experiences. With a passion for building innovative solutions and a strong foundation in full-stack development, I strive to create impactful digital products that inspire creativity and efficiency.",
+    "Hello! I'm Maheshwar Reddy, a Software Engineer and Designer dedicated to crafting tools that empower developers and enhance user experiences. With a passion for building innovative solutions and a strong foundation in full-stack development, I strive to create impactful digital products that inspire creativity and efficiency.",
   avatarUrl: "/me.jpg",
   skills: [
     "Javascript",
     "Python",
-    "TypeScript",
     "Java",
     "React",
+    "TypeScript",
     "Next.js ",
     "Redux",
     "Recoil",
     "tailwindcss",
     "Css",
     "Html",
-    "framermotion",
     "Node",
+    "framermotion",
     "SocketIO",
-    "WebRTC",
-    "tRPC",
-    "express",
     "GraphQL",
+    "tRPC",
     "SQL",
+    "WebRTC",
+    "express",
     "Prisma",
     "MongoDB",
     "Docker",
@@ -44,32 +46,32 @@ export const data = {
     tel: "+91 9705768802",
     social: [
       {
-        name:"Leetcode",
-        them:"",
+        name: "Leetcode",
+        them: "amber",
         username: "@maheshwar7075",
         url: "https://leetcode.com/u/maheshwarreddy7075/",
-        icon:<SiLeetcode className=" size-7"/>
-          },
+        icon: <TbBrandLeetcode className=" size-9 text-amber-500" strokeWidth={1.9} />
+      },
       {
-        name:"Linkedin",
-        them:"",
+        name: "Linkedin",
+        them: "sky",
         username: "/Maheshwarreddy",
         url: "https://www.linkedin.com/in/maheshwar-reddy-713927258/",
-        icon:<RiLinkedinBoxLine className=" size-9"  />,
+        icon: <LuLinkedin className=" size-9  text-sky-500" strokeWidth={1.4} />,
       },
       {
-        name:"Twitter",
-        them:"",
+        name: "Twitter",
+        them: "",
         username: "@Maheshwarr20",
         url: "https://x.com/Maheshwarr20",
-        icon:<RiTwitterXLine className=" size-6 " /> ,
+        icon: <RiTwitterXLine className=" size-6 " />,
       },
       {
-        name:"Github",
-        them:"",
+        name: "Github",
+        them: "",
         username: "@Maheshwarreddy970",
         url: "https://github.com/Maheshwarreddy970",
-        icon: <FiGithub className=" size-7"  />
+        icon: <FiGithub className=" size-7" />
         ,
       },]
   },
@@ -84,8 +86,10 @@ export const data = {
       start: " mar 2024",
       end: "Present",
       description:
-        ` Established and led the development of a comprehensive animated UI components library, facilitating streamlined and efficient development processes.
-                  Simplified coding workflows for developers by providing pre-built UI components,eliminating the need to start from scratch and accelerating project timelines.`,
+        [
+          "Developed an open-source UI component library using React, incorporating pre-built components and Framer Motion animations to enhance smooth interactions and usability."
+          , "Achieved over 6,000 unique visitors, empowering developers to build 10x faster and more efficiently by offering modern,trending components that streamline the development process."
+        ],
     },
     {
       company: "FREELANCEDEVELOPER",
@@ -96,20 +100,18 @@ export const data = {
       logoUrl: "/freelance.jpg",
       start: "jan 2024",
       end: "mar 2024",
-      description:
-        " Developed end-to-end web and native applications using React,Next.js,Prisma,Firebase, React Native, Supabase, SQL,and TailwindCSS based on client requirements.Received excellent feedback from clients for delivering high-quality, efficient, anduser-friendly projects.",
-    },
+      description:[" Developed end-to-end web and native applications using React, Next.js, Prisma, Firebase, React Native, Supabase, SQL,and TailwindCSS based on client needs.","Completed projects for 6+ clients, increasing website traffic by 60 to 100 percentage, with excellent feedback for quality,efficiency, and user-friendly design "] 
+       },
     {
       company: "WECODE",
       href: "",
       badges: [],
       location: "Hyderabad",
       title: "Web Development Intern",
-      logoUrl: "/we_code logo.jpeg",
+      logoUrl: "/wecode.png",
       start: "jan 2023",
       end: "apr 2023",
-      description:
-        "Enhanced UI for improved student interaction with the website. Optimized backend performance,increasing website speed and efficiency",
+      description:["Built and enhanced the UI for both student and teacher sides of the course web application, making the interface more user-friendly and improving engagement.","Optimized backend performance to boost website speed and implemented end-to-end PDF storage for class notes using S3, increasing student interactions by 100+ "]
     },
   ],
   education: [
@@ -122,146 +124,107 @@ export const data = {
       end: "2024",
     },
   ],
-  //     projects: [
-  //       {
-  //         title: "LayerUI",
-  //         href: "https://www.layerui.com/",
-  //         dates: "March 2024 - Present",
-  //         active: true,
-  //         description:
-  //           "Designed and developed LayerUI, a comprehensive library of animated UI components that streamlined development workflows by offering pre-built elements, reducing the need for custom coding, and accelerating project timelines.",
-  //         technologies: [
-  //           "Next.js",
-  //           "Typescript",
-  //           "TailwindCSS",
-  //           "Framer Motion",
-  //           "React",
-  //           "Firebase",
-  //         ],
-  //         links: [
-  //           {
-  //             type: "Website",
-  //             href: "https://www.layerui.com/",
-  //             icon: ,
-  //           },
-  //         ],
-  //         image: "",
-  //         video:
-  //           "/herovideo.mp4",
-  //       },
-  //       {
-  //         title: " CORINNA-AI",
-  //         href: "https://corinna-ai-gray.vercel.app/",
-  //         dates: "December 2023 - February 2024",
-  //         active: true,
-  //         description:
-  //           "Created Corinna-AI, a customizable chatbot with advanced NLP for diverse queries, allowing businesses to personalize interactions with custom greetings, email collection, and tailored chat features.",
-  //         technologies: [
-  //           "Next.js",
-  //           "Typescript",
-  //           "PostgreSQL",
-  //           "Prisma",
-  //           "TailwindCSS",
-  //           "Stripe",
-  //           "Shadcn UI",
-  //           "React",
-  //           "Node.js",
-  //         ],
-  //         links: [
-  //           {
-  //             type: "Website",
-  //             href: "https://corinna-ai-gray.vercel.app/",
-  //             icon: ,
-  //           },
-  //           {
-  //             type: "Source",
-  //             href: "https://github.com/Maheshwarreddy970/corinna-ai",
-  //             icon: ,
-  //           },
-  //         ],
-  //         image: "",
-  //         video: "/coranaai.mp4",
-  //       },
-  //       {
-  //         title: "CHATDOC",
-  //         href: "https://chatdoc-fawn.vercel.app/",
-  //         dates: "November 2023 - December 2023",
-  //         active: true,
-  //         description:
-  //           "Developed an AI-integrated document chat system for context-aware interactions. Enhanced productivity via intuitive design and efficient communication. Enables users to engage in natural language interactions with documents. Utilized advanced AI capabilities for seamless user-document engagement.",
-  //         technologies: [
-  //           "Trpc",
-  //           "Next.js",
-  //           "Typescript",
-  //           "PostgreSQL",
-  //           "Prisma",
-  //           "TailwindCSS",
-  //           "AWS",
-  //           "Langchain",
-  //           "OpenAi api",
-  //           "MonoRepo",
-
-  //         ],
-  //         links: [
-  //           {
-  //             type: "Website",
-  //             href: "https://chatdoc-fawn.vercel.app/",
-  //             icon: ,
-  //           },
-  //           {
-  //             type: "Source",
-  //             href: "https://github.com/Maheshwarreddy970/chatdoc",
-  //             icon: ,
-  //           },
-  //         ],
-  //         image: "/chatdocproject.png",
-  //         video: "",
-  //       },
-  //       {
-  //         title: "Automatic Chat",
-  //         href: "https://specto-wheat.vercel.app/",
-  //         dates: "June 2023 - August 2023",
-  //         active: true,
-  //         description:
-  //           "Specto revolutionizes agency management with its all-in-one platform, integrating goal setting, progress tracking, and web design. Its intuitive interface and dynamic charting streamline multitasking and enhance performance monitoring, enabling agencies to efficiently achieve their goals.",
-  //         technologies: [
-  //           "Next.js",
-  //           "Typescript",
-  //           "PostgreSQL",
-  //           "Prisma",
-  //           "TailwindCSS",
-  //           "Shadcn UI",
-  //           "Aws",
-  //         ],
-  //         links: [
-  //           {
-  //             type: "Website",
-  //             href: "https://specto-wheat.vercel.app/",
-  //             icon: ,
-  //           },
-  //           {
-  //             type: "Source",
-  //             href: "https://github.com/Maheshwarreddy970/specto",
-  //             icon: ,
-  //           },
-  //         ],
-  //         image: "/specto.png",
-  //         video:
-  //           "",
-  //       },
-  //     ],
-  //     courses: [
-  //       {
-  //         title: "100xDevs",
-  //         dates: "Jun 2023 - Dec 2023",
-  //         from: "100xdevs.com",
-  //         description:
-  //           "Completed an intensive Fullstack Development course covering languages like JavaScript, TypeScript, and Java, along with frameworks such as React, Next.js, and Node.js. Proficient in databases (SQL, Prisma, MongoDB, Redis) and experienced in DevOps tools like Docker, AWS, and GitHub CI/CD, with strong version control using Git",
-  //         image:
-  //           "/100xdevs.jpg",
-  //         mlh: "",
-  //         links: [],
-  //       }
-  //     ],
-  // },
+  projects: [
+    {
+      title: "LayerUI",
+      href: "https://www.layerui.com/",
+      active: true,
+      description:
+        "Designed and developed LayerUI, a comprehensive library of animated UI components that streamlined development workflows by offering pre-built elements, reducing the need for custom coding, and accelerating project timelines.",
+      links: [
+        {
+          type: "Website",
+          href: "https://www.layerui.com/",
+          icon: <FaGlobeAmericas ></FaGlobeAmericas>,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Layer-UI/LayerUI",
+          icon: <SiGithub ></SiGithub>,
+        },
+      ],
+      image: "",
+      video:
+        "/herovideo.mp4",
+    },
+    {
+      title: " CORINNA-AI",
+      href: "https://corinna-ai-gray.vercel.app/",
+      active: true,
+      description:
+        "Created Corinna-AI, a customizable chatbot with advanced NLP for diverse queries, allowing businesses to personalize interactions with custom greetings, email collection, and tailored chat features.",
+      links: [
+        {
+          type: "Website",
+          href: "https://corinna-ai-gray.vercel.app/",
+          icon: <FaGlobeAmericas ></FaGlobeAmericas>,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Maheshwarreddy970/corinna-ai",
+          icon: <SiGithub ></SiGithub>,
+        },
+      ],
+      image: "",
+      video: "/coranaai.mp4",
+    },
+    {
+      title: "CHATDOC",
+      href: "https://chatdoc-fawn.vercel.app/",
+      dates: "November 2023 - December 2023",
+      active: true,
+      description:
+        "Developed an AI-integrated document chat system for context-aware interactions. Enhanced productivity via intuitive design and efficient communication. Enables users to engage in natural language interactions with documents. Utilized advanced AI capabilities for seamless user-document engagement.",
+      links: [
+        {
+          type: "Website",
+          href: "https://chatdoc-fawn.vercel.app/",
+          icon: <FaGlobeAmericas ></FaGlobeAmericas>,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Maheshwarreddy970/chatdoc",
+          icon: <SiGithub ></SiGithub>,
+        },
+      ],
+      image: "",
+      video: "/chatdoc.mp4",
+    },
+    {
+      title: "Automatic Chat",
+      href: "https://specto-wheat.vercel.app/",
+      active: true,
+      description:
+        "Specto revolutionizes agency management with its all-in-one platform, integrating goal setting, progress tracking, and web design. Its intuitive interface and dynamic charting streamline multitasking and enhance performance monitoring, enabling agencies to efficiently achieve their goals.",
+      links: [
+        {
+          type: "Website",
+          href: "https://specto-wheat.vercel.app/",
+          icon: <FaGlobeAmericas ></FaGlobeAmericas>,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Maheshwarreddy970/specto",
+          icon: <SiGithub ></SiGithub>,
+        },
+      ],
+      image: "",
+      video: "/specto.mp4",
+    },
+  ],
+  courses: [
+    {
+      title: "100xDevs",
+      start: "Jun 2023",
+      end: "Dec 2023",
+      fieldofstudy: 'Fullstack',
+      from: "100xdevs.com",
+      description:
+        "Completed an intensive Fullstack Development course covering languages like JavaScript, TypeScript, and Java, along with frameworks such as React, Next.js, and Node.js. Proficient in databases (SQL, Prisma, MongoDB, Redis) and experienced in DevOps tools like Docker, AWS, and GitHub CI/CD, with strong version control using Git",
+      image:
+        "/100xdevs.jpg",
+      mlh: "",
+      links: "https://100xdevs.com/",
+    }
+  ],
 }

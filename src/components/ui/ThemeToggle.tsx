@@ -49,7 +49,7 @@ const SliderToggle = ({ theme, setTheme }: { theme: string | undefined; setTheme
           <motion.span
             layout
             transition={{ type: "spring", damping: 15, stiffness: 250 }}
-            className="h-full w-1/2 rounded-full  bg-gradient-to-r from-violet-600 to-indigo-600"
+            className="h-full w-1/2 rounded-full border shadow-lg dark:bg-violet-900 dark:border-white/30 border-black/10 bg-amber-500"
           />
         </div>
       </div>

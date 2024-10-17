@@ -24,23 +24,29 @@ export default function EducationCard({
 
 
     return (
-        <div className=" relative flex w-full group min-h-24 p-2 gap-3 border-b last:border-b-0">
-            <img src={logoUrl} alt='WorkLogo' className=' border size-12 bg-muted-background dark:bg-foreground'></img>
-            <div >
-                <div className=' flex items-center'>
-                    <h3 className=' font-semibold text-base'>{school}</h3>
+        <>
+            <div className=" relative flex w-full group min-h-24 p-2 gap-3  last:border-b-0">
+                <img src={logoUrl} alt='WorkLogo' className=' rounded-xl border size-12 bg-muted-background dark:bg-foreground'></img>
+                <div >
+                    <div className=' flex items-center'>
+                        <h3 className=' font-semibold text-base'>{school}</h3>
+                    </div>
+                    <div className=" leading-5	 text-sm ">
+                        <p>{fieldofstudy}</p>
+                        <p>{period}</p>
+                    </div>
                 </div>
-                <div className=" leading-5	 text-sm ">
-                    <p>{fieldofstudy}</p>
-                    <p>{period}</p>
-                </div>
+                {
+                    href &&
+                    <a href={href} target='_blank' className=' absolute top-1 right-1'>
+                        <GoLinkExternal className='' />
+                    </a>
+                }
             </div>
             {
-                href &&
-                <a href={href} target='_blank' className=' absolute top-1 right-1'>
-                    <GoLinkExternal className='' />
-                </a>
+                description &&
+                <p className=' pl-5'>{description}</p>
             }
-        </div>
+        </>
     )
 }
