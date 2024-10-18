@@ -42,7 +42,7 @@ const SliderToggle = ({ theme, setTheme }: { theme: string | undefined; setTheme
           <span className="relative z-10">Dark</span>
         </button>
         <div
-          className={`absolute inset-0 z-0 py-2 flex ${
+          className={`absolute inset-0 z-0 p-0 md:py-2 flex ${
             theme === "dark" ? "justify-end" : "justify-start"
           }`}
         >

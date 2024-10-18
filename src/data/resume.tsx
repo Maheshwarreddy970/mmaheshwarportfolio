@@ -144,8 +144,7 @@ export const data = {
         },
       ],
       image: "",
-      video:
-        "/herovideo.mp4",
+      video:"/herovideo.mp4",
     },
     {
       title: " CORINNA-AI",
