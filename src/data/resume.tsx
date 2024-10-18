@@ -147,33 +147,12 @@ export const data = {
       video:"/herovideo.mp4",
     },
     {
-      title: " CORINNA-AI",
-      href: "https://corinna-ai-gray.vercel.app/",
-      active: true,
-      description:
-        "Created Corinna-AI, a customizable chatbot with advanced NLP for diverse queries, allowing businesses to personalize interactions with custom greetings, email collection, and tailored chat features.",
-      links: [
-        {
-          type: "Website",
-          href: "https://corinna-ai-gray.vercel.app/",
-          icon: <FaGlobeAmericas ></FaGlobeAmericas>,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Maheshwarreddy970/corinna-ai",
-          icon: <SiGithub ></SiGithub>,
-        },
-      ],
-      image: "",
-      video: "/coranaai.mp4",
-    },
-    {
       title: "CHATDOC",
       href: "https://chatdoc-fawn.vercel.app/",
       dates: "November 2023 - December 2023",
       active: true,
       description:
-        "Developed an AI-integrated document chat system for context-aware interactions. Enhanced productivity via intuitive design and efficient communication. Enables users to engage in natural language interactions with documents. Utilized advanced AI capabilities for seamless user-document engagement.",
+      "Developed an AI-integrated document chat system for context-aware interactions. Enhanced productivity via intuitive design and efficient communication. Enables users to engage in natural language interactions with documents. Utilized advanced AI capabilities for seamless user-document engagement.",
       links: [
         {
           type: "Website",
@@ -194,7 +173,7 @@ export const data = {
       href: "https://specto-wheat.vercel.app/",
       active: true,
       description:
-        "Specto revolutionizes agency management with its all-in-one platform, integrating goal setting, progress tracking, and web design. Its intuitive interface and dynamic charting streamline multitasking and enhance performance monitoring, enabling agencies to efficiently achieve their goals.",
+      "Specto revolutionizes agency management with its all-in-one platform, integrating goal setting, progress tracking, and web design. Its intuitive interface and dynamic charting streamline multitasking and enhance performance monitoring, enabling agencies to efficiently achieve their goals.",
       links: [
         {
           type: "Website",
@@ -209,6 +188,27 @@ export const data = {
       ],
       image: "",
       video: "/specto.mp4",
+    },
+    {
+      title: " CORINNA-AI",
+      href: "https://corinna-ai-gray.vercel.app/",
+      active: true,
+      description:
+        "Created Corinna-AI, a customizable chatbot with advanced NLP for diverse queries, allowing businesses to personalize interactions with custom greetings, email collection, and tailored chat features.",
+      links: [
+        {
+          type: "Website",
+          href: "https://corinna-ai-gray.vercel.app/",
+          icon: <FaGlobeAmericas ></FaGlobeAmericas>,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Maheshwarreddy970/corinna-ai",
+          icon: <SiGithub ></SiGithub>,
+        },
+      ],
+      image: "",
+      video: "/coranaai.mp4",
     },
   ],
   courses: [
